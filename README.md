@@ -13,7 +13,7 @@ This project allows users to browse, filter, and match adoptable dogs using Fetc
 
 ## Live Site
 
-[Live Demo Here](https://your-deployment-url.com)
+[Live Demo Here](https://ijokoye.github.io/FetchTakeHome/)
 
 ## Repo Link URL:
 https://github.com/ijokoye/FetchTakeHome.git
