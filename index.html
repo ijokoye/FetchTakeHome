@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch Dog Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Activities</h1>
+    </header>
+    
+    <label for="sort-select">Sort by Breed:</label>
+    <select id="sort-select">
+    <option value="breed:asc">A → Z</option>
+    <option value="breed:desc">Z → A</option>
+    </select>
+
+    <label for="breed-select">Filter by Breed:</label>
+    <select id="breed-select">
+    <option value="">All Breeds</option>
+    </select>
+
+    <label for="zip-input">Filter by ZIP Code:</label>
+    <input type="text" id="zip-input" placeholder="e.g. 10001 or 90210,94110">
+    <button id="zip-search-button">Search by ZIP</button>
+
+    <div id="activities-list">
+        <!--Activities will be listed here-->
+    </div>
+
+    <div id="activities-details">
+        <!--Details of the activity will be listed here-->
+    </div>
+
+    <button id="match-button">Find Match</button>
+
+    <div id="pagination-controls">
+        <button id="prev-button" disabled>Previous</button>
+        <button id="next-button" disabled>Next</button>
+      </div>
+
+    <script src="app.js"></script>
+
+    
+</body>
+</html>
